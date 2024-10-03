@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.time{
+    display: flex;
+    gap: 16px;
+}
+#hourB{
+    position: relative;
+    right: 13px;
+    top: 15px;   
+}
+#hourBD{
+    position: relative;
+    right: 13px;
+    bottom: 15px;
+}
+#minBD{
+    position: relative;
+    
+    bottom: 15px;
+}
+#minB{
+    position: relative;
+    
+    top: 15px;
+}
+#secB{
+    position: relative;
+    left: 13px;
+    top: 15px;   
+}
+#secBD{
+    position: relative;
+    left: 13px;
+    bottom: 15px;   
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 32px;
+    background-color: white;
+}
+.btn:active{
+    transform: scale(0.98);
+}

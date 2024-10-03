@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+}
+#count{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#btnStart{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}
